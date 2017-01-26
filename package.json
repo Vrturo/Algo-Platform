@@ -1,0 +1,19 @@
+{
+  "name": "algo-platform",
+  "version": "1.0.0",
+  "description": "Training platform for data driven algorithms to compare multiple algorithms for runtime and space.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vrturo/Algo-Platform.git"
+  },
+  "author": "Arturo Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vrturo/Algo-Platform/issues"
+  },
+  "homepage": "https://github.com/Vrturo/Algo-Platform#readme"
+}
