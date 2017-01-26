@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Vrturo/Algo-Platform.git"
   },
+  "scripts": {
+    "test": "vows --spec"
+  },
   "author": "Arturo Perez",
   "license": "ISC",
   "bugs": {
