@@ -1,10 +1,11 @@
-var express = require('express');
-var app = express();
+const express = require('express');
 
-app.get('/', function(req, res){
+const app = express();
+
+app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
-var server = app.listen(3000, function(){
-  console.log('Magic is happening on port 3000')
+app.listen(3000, () => {
+  console.log('Magic is happening on port 3000');
 });
