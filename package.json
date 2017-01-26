@@ -4,7 +4,7 @@
   "description": "Training platform for data driven algorithms to compare multiple algorithms for runtime and space.",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "./node_modules/eslint/bin/eslint.js hello.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Vrturo/Algo-Platform#readme",
   "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
     "jshint": "^2.9.4"
   }
 }
