@@ -1,6 +1,8 @@
 const express = require('express');
 
 const app = express();
+// Routes
+const index = require('/routes/index');
 
 app.get('/', (req, res) => {
   res.send('Hello World');
