@@ -6,3 +6,4 @@ Training platform for data driven algorithms to compare multiple algorithms for 
 - Node
 - Docker
 - Travis CI
+- Vue.js
