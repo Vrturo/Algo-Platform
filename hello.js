@@ -61,7 +61,7 @@ function binarySearch(item, arr){
           return false;
         };
       }
-      if( item > arr[mid] ){
+      if (item > arr[mid]) {
         return binarySearch(item, arr.splice(0, mid));
       }
       else if( item < arr[mid] ){
