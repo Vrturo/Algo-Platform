@@ -9,21 +9,35 @@ html.
 
     <link rel="stylesheet" type="text/css" href="css/particles.min.css">
     <link rel="stylesheet" type="text/css" href="css/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+
   </head>
   <body>
-    <!-- particles.js container -->
-    <div id="particles-js">
-      <h1 style="color: white"> Algo Platform </h1>
-    </div>
-    <textarea style="background-color: black"id="that"> hello </textarea>
 
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- stats.js lib -->
-    <script src="js/particles.min.js" type="text/javascript"></script>
-    <script src="js/codemirror.js" type="text/javascript"></script>
-    <script>
-      var editor = CodeMirror.fromTextArea(document.getElementById('that'), {
-        lineNumbers: true
-      });
-    </script>
+    <!--  <div id="particles-js">
+      <h1 style="color: white"> Algo Platform </h1>
+    </div>  -->
+
+    <div class="container grid">
+        <h2>Javascript</h2>
+        <textarea id="code" name="code"></textarea>
+        <button id="run"> Run! </button>
+    </div>
+
+    <div class="output grid">
+      <iframe></iframe>
+    </div>
+
+
+    <!-- CodeMirror -->
+    <script src="js/codemirror.js"></script>
+
+    <script src="js/index.js" type="text/javascript"></script>
+
+    <!-- particles container -->
+    <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script src="js/particles.min.js" type="text/javascript"></script> -->
+
   </body>
